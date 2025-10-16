@@ -144,7 +144,7 @@ s"""
 
   <!-- 🌌 Dashboard Content -->
   <div class="container text-center">
-    <img src="https://wp.dailybruin.com/images/2020/07/web.ae_.juicewrld.courtesy.jpg"
+    <img src="https://png.pngtree.com/png-vector/20241120/ourmid/pngtree-playful-cartoon-astronaut-floating-in-space-png-image_14498972.png"
          alt="Juice WRLD" class="logo">
     <h1>Elon Musk Tweets Analysis</h1>
 
