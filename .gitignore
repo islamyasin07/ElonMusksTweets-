@@ -1,0 +1,47 @@
+# ------------------------------
+# Scala / SBT build files
+# ------------------------------
+target/
+project/project/
+project/target/
+.metals/
+.bloop/
+.idea/
+.vscode/
+*.class
+*.log
+
+# ------------------------------
+# Spark temporary / output files
+# ------------------------------
+*.crc
+*.tmp
+*.eventlog
+output/
+data/
+derby.log
+
+# ------------------------------
+# OS / Editor files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Sensitive configs
+# ------------------------------
+application.properties
+*.secret.properties
+
+# ------------------------------
+# Cache / Environment
+# ------------------------------
+.cache/
+.history/
+# Sensitive configuration files
+application.properties
+config.properties
+*.secret.properties
+*.private.properties
+data/
+*.csv
