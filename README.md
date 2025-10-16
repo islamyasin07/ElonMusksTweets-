@@ -42,17 +42,36 @@ The dashboard includes:
 | 💬 **Text Analytics** | Calculates tweet percentages by keyword occurrence |
 | 📏 **Statistical Metrics** | Mean & Standard Deviation for all and per keyword |
 | 🌐 **HTML Dashboard** | Interactive Bootstrap-based dashboard with video background |
-| ⚙️ **Spark + HDFS Support** | Supports reading data from both Local FS and HDFS |
 | 🎁 **Bonus Analytics** | Optional export of results to HDFS for distributed environments |
 
 ---
+## 🧩 Project Structure
+```
+elon-tweets/
+├── build.sbt
+├── project/
+│   └── build.properties
+├── src/
+│   └── main/
+│       ├── scala/
+│       │   ├── ElonTweetsApp.scala        # Main Spark Application
+│       │   ├── DataLoader.scala           # Reads CSV (local/HDFS)
+│       │   ├── KeywordAnalyzer.scala      # RDD-based analytics logic
+│       │   └── ReportGenerator.scala      # HTML report generator
+│       └── resources/
+│           ├── log4j.properties           # Logging config
+│           └── application-example.properties
+├── data/                                  # Local input data (ignored in .gitignore)
+├── output/                                # Generated HTML reports
+├── README.md
+└── .gitignore
 
-
+```
 ---
 
 ## 🖥️ Screenshots <a id="screenshots"></a>
 
-> Add your screenshots here to showcase the output report and analytics:
+> 
 
 <p align="center">
   <img src="stats.png" alt="Statistics Example" width="700">
